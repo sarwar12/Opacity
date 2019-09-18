@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Header Section*/
+.heads{}
+.heads h1{
+	background: teal;
+	padding: 20px 0;
+	text-align: center;
+	color: #eee;
+}
+/*Image Section*/
+.image {
+	margin: 50px 0;
+	text-align: center;
+}
+.image img {
+	width: 20%;
+	height: 200px;
+	margin-left: 10px;
+	opacity: 0.3;
+}
+.image img:hover{
+	opacity:1;
+}
+/*Divs Section*/
+.divs{
+	text-align: center;
+}
+.box {
+	width: 20%;
+	height: 200px;
+	background: teal;
+	color: white;
+	opacity: 0.3;
+	display: inline-block;
+}
+.box:hover{
+	opacity: 1;
+}
+.box p{
+	color: #fff;
+}
+.boxx{
+	width: 20%;
+	height: 200px;
+	background: red;
+	display: inline-block;
+}
+.boxx:hover{
+	opacity: 0.4;
+}
+.boxx p{
+	color: #fff;
+}
+/*Footer Section*/
+.foots{
+	margin-top: 50px;
+}
+.foots p{
+	background: teal;
+	padding: 20px 0;
+	text-align: center;
+	color: #eee;
+}
